@@ -1,0 +1,11 @@
+/* App.css - All styling is handled by Tailwind CSS and index.css */
+
+/* Ensure smooth transitions on layout changes */
+* {
+  @apply transition-colors duration-200;
+}
+
+/* Prevent layout shift on scrollbar appearance */
+html {
+  scrollbar-gutter: stable;
+}
